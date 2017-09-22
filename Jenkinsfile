@@ -27,6 +27,6 @@ node('master') {
     } finally {
         // Spin down containers no matter what happens
         sh './develop down'
-        sh 'docker-cleanup'
+        //sh 'docker-cleanup'
     }
 }
