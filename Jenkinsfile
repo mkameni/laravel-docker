@@ -26,7 +26,7 @@ node('master') {
         thorw error
     } finally {
         // Spin down containers no matter what happens
-        sh './develop down'
+        //sh './develop down'
         //sh 'docker-cleanup'
     }
 }
