@@ -21,7 +21,7 @@ export PUID=$(id -u `whoami`)
 export PGID=$(id -g `whoami`)
 
 # Decide which docker-compose file to use
-COMPOSE_FILE="dev"
+COMPOSE_FILE="ci"
 
 # Users of the docker containers
 DOCKER_USER_APP="www-data"
